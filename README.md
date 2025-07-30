@@ -73,10 +73,21 @@ prompts/
 
 如果你觉得这些提示模板对你有帮助，欢迎请作者喝杯咖啡：
 
-### 微信支付
-![微信支付](img/wxpay.JPG)
-
-### 支付宝
-![支付宝](img/alipay.JPG)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <h3>微信支付</h3>
+        <img src="./img/wxpay.JPG" width="200" alt="微信支付二维码">
+        <p>微信支付二维码</p>
+      </td>
+      <td align="center">
+        <h3>支付宝</h3>
+        <img src="./img/alipay.JPG" width="200" alt="支付宝二维码">
+        <p>支付宝二维码</p>
+      </td>
+    </tr>
+  </table>
+</div>
 
 感谢您的支持！
