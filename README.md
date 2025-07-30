@@ -2,6 +2,10 @@
 
 一个精心策划的 AI 提示集合，用于辅助软件开发各个方面的任务。
 
+![GitHub](https://img.shields.io/github/license/axfinn/aiPrompts)
+![GitHub last commit](https://img.shields.io/github/last-commit/axfinn/aiPrompts)
+![GitHub issues](https://img.shields.io/github/issues/axfinn/aiPrompts)
+
 ## 版本信息
 
 当前版本: v1.0.0
@@ -19,7 +23,7 @@ prompts/
 ## 内容介绍
 
 ### 代码实现提示 (code_implementation.md)
-- 通用编程任务（代码解释、优化、调试）
+- 通用编程任务（代码解释、优化、调试、重构）
 - 特定任务（算法、数据结构、设计模式实现）
 - 项目开发（API 设计、数据库设计、完整项目结构）
 
@@ -53,10 +57,26 @@ prompts/
 3. 根据具体需求调整模板中的内容
 4. 将提示用于与 AI 助手的交互中
 
-## 版本历史
+## 开发规范
 
-查看 [CHANGELOG.md](./CHANGELOG.md) 了解详细版本更新信息
+本项目严格遵循以下开发流程：
+
+1. 所有新功能开发必须在新建的功能分支上进行
+2. 开发完成后必须进行代码审查（CR）
+3. 审核通过后才能将功能分支合并到主分支
+4. 禁止直接在主分支上进行开发
+5. 项目采用版本管理，只有在CR通过并合并到主分支时才会触发版本变更、打标签和同步远程仓库
 
 ## 贡献
 
 欢迎提交 Issue 或 Pull Request 来改进这些提示模板。
+
+如果你觉得这些提示模板对你有帮助，欢迎通过以下方式赞助支持：
+
+### 微信支付
+![微信支付](img/wxpay.JPG)
+
+### 支付宝
+![支付宝](img/alipay.JPG)
+
+感谢您的支持！
