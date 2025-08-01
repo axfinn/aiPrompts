@@ -8,7 +8,7 @@
 
 ## 版本信息
 
-当前版本: v1.1.0
+当前版本: v1.2.0
 
 ## 目录结构
 
@@ -17,7 +17,8 @@ prompts/
 ├── code_implementation.md     # 通用代码实现提示
 ├── frontend_development.md    # 前端开发提示
 ├── backend_development.md     # 后端开发提示
-└── devops_deployment.md       # DevOps 和部署提示
+├── devops_deployment.md       # DevOps 和部署提示
+└── git_development.md         # Git 开发提示
 ```
 
 ## 内容介绍
@@ -49,6 +50,15 @@ prompts/
 - 基础设施即代码
 - 监控和日志
 - 安全加固
+
+### Git 开发提示 (git_development.md)
+- 分支管理（功能分支工作流、Git Flow 工作流）
+- 提交信息规范（Conventional Commits 规范）
+- 版本管理（语义化版本控制）
+- 变更记录（CHANGELOG 编写）
+- 版本发布（标签管理）
+- 代码审查（合并请求审查）
+- 冲突解决（合并冲突处理）
 
 ## 使用方法
 
