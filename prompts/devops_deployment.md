@@ -36,6 +36,60 @@
 4. 健康检查配置
 ```
 
+### Docker Compose 调试场景
+```
+请为 [应用架构，如"前端+后端+数据库"] 项目提供 Docker Compose 调试和故障排除方案：
+
+常见调试场景：
+1. 服务启动失败
+   - 容器退出码分析
+   - 依赖服务启动顺序问题
+   - 端口冲突检查
+
+2. 服务间通信问题
+   - 网络连接性测试
+   - DNS 解析检查
+   - 防火墙和安全组配置
+
+3. 数据库连接问题
+   - 数据库初始化状态检查
+   - 连接串和凭据验证
+   - 数据库权限配置
+
+4. 性能问题
+   - 资源使用情况监控
+   - 容器资源限制调整
+   - 网络延迟分析
+
+5. 日志和监控
+   - 容器日志收集策略
+   - 健康检查配置优化
+   - 监控指标设置
+
+调试工具和命令：
+- docker-compose logs [服务名]
+- docker-compose exec [服务名] [命令]
+- docker-compose ps
+- docker-compose top
+- docker inspect [容器名]
+- docker network ls
+- docker volume ls
+
+环境差异化配置：
+1. 开发环境配置（docker-compose.dev.yml）
+2. 测试环境配置（docker-compose.test.yml）  
+3. 生产环境配置（docker-compose.prod.yml）
+4. 调试环境配置（docker-compose.debug.yml）
+
+故障排除流程：
+1. 检查服务状态和日志
+2. 验证网络连接性
+3. 检查环境变量和配置
+4. 验证数据卷挂载
+5. 检查资源使用情况
+6. 重启相关服务
+```
+
 ## CI/CD 流水线
 
 ### GitHub Actions
