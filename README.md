@@ -12,7 +12,7 @@
 
 ## 目录结构
 
-```
+```text
 prompts/
 ├── code_implementation.md     # 通用代码实现提示
 ├── frontend_development.md    # 前端开发提示
@@ -24,11 +24,13 @@ prompts/
 ## 内容介绍
 
 ### 代码实现提示 (code_implementation.md)
+
 - 通用编程任务（代码解释、优化、调试、重构）
 - 特定任务（算法、数据结构、设计模式实现）
 - 项目开发（API 设计、数据库设计、完整项目结构）
 
 ### 前端开发提示 (frontend_development.md)
+
 - UI 组件开发
 - 响应式布局
 - 交互功能实现
@@ -38,6 +40,7 @@ prompts/
 - 工程化实践
 
 ### 后端开发提示 (backend_development.md)
+
 - API 开发（RESTful、GraphQL）
 - 数据库设计与操作
 - 身份验证与授权
@@ -45,6 +48,7 @@ prompts/
 - 性能与监控
 
 ### DevOps 和部署提示 (devops_deployment.md)
+
 - 容器化（Docker、Docker Compose）
 - CI/CD 流水线
 - 基础设施即代码
@@ -52,6 +56,7 @@ prompts/
 - 安全加固
 
 ### Git 开发提示 (git_development.md)
+
 - 分支管理（功能分支工作流、Git Flow 工作流）
 - 提交信息规范（Conventional Commits 规范）
 - 版本管理（语义化版本控制）
@@ -83,21 +88,10 @@ prompts/
 
 如果你觉得这些提示模板对你有帮助，欢迎请作者喝杯咖啡：
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <h3>微信支付</h3>
-        <img src="./img/wxpay.JPG" width="200" alt="微信支付二维码">
-        <p>微信支付二维码</p>
-      </td>
-      <td align="center">
-        <h3>支付宝</h3>
-        <img src="./img/alipay.JPG" width="200" alt="支付宝二维码">
-        <p>支付宝二维码</p>
-      </td>
-    </tr>
-  </table>
-</div>
+| 微信支付 | 支付宝 |
+| --- | --- |
+| ![微信支付二维码](./img/wxpay.JPG) | ![支付宝二维码](./img/alipay.JPG) |
+
+（上表二维码仅用于支持作者）
 
 感谢您的支持！
